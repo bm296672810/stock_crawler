@@ -1,5 +1,7 @@
 # stock_crawler
+该项目主要是爬取深交所所有股票的分时数据
 本人ide用的是vscode，接下来主要是配置vscode下的python环境
+
 ## 1. vscode环境搭建参照(https://code.visualstudio.com/docs/python/environments)
 ## 2. python3 创建虚拟环境
    打开vscode的命令界面选择 Terminal: Create New Integrated Terminal 项
