@@ -10,7 +10,7 @@
    安装requests库 输入: python3 -m pip install requests
 
 注:
-其中 create.sql 是创建sqlite数据库的sql语句
-main.py       python文件入口
-request.py    发起http请求数据的接口
-parse_json.py 请求到的json数据解析以及数据保存到数据库
+  其中 create.sql 是创建sqlite数据库的sql语句
+  main.py       python文件入口
+  request.py    发起http请求数据的接口
+  parse_json.py 请求到的json数据解析以及数据保存到数据库
