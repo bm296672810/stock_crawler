@@ -86,8 +86,9 @@ def parse_stock_list(json_str):
 
 # 解析request里 get_time_data请求的数据
 def parse_data_json(json_str):
-    json_dict = json.loads(json_str)
     try:
+        json_dict = json.loads(json_str)
+    
         # date_time = json_dict["datetime"]
         code          = json_dict["code"]
         j_data        = json_dict["data"]
